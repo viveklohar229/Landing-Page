@@ -143,3 +143,99 @@ footer{
     padding: 23px;
     text-align: center;
 }
+
+
+/* Responsiveness  */
+@media only screen and (min-width:1024px){
+    .buttons{
+        margin:auto;
+
+    }
+    .deal{
+        margin-top: 3rem;
+    }
+    }
+
+    @media only screen and (max-width:1024px){
+        .buttons{
+            margin:auto;
+    
+        }
+    }
+
+    @media only screen and (max-width:768px) {
+   .topright .gyming{
+        width: 0;
+    }
+
+    .topright{
+        width: 0;
+    }
+
+  .section1{
+    height: 600px;
+  }
+
+  .boxes{
+    flex-direction: column;
+  }
+.box{
+    min-width: 28vw;
+    margin: 12px 26px;
+}
+
+    .topleft{
+        width: 100%;
+    }
+
+    .buttons{
+        margin-top:1rem;
+    }
+
+   
+}
+
+@media only screen and (max-width:624px){
+
+    .logo{
+        margin-top: 1rem;
+        font-size: xx-large;
+    }
+
+
+    .navbar{
+        height: auto;
+        margin: 2rem;
+    }
+    
+     .navbar li{
+        margin: 1rem;
+        font-size: large;
+     }
+
+   .flex{
+    flex-direction: column;
+    justify-content: space-between;
+    
+   }
+
+   .section3{
+    padding: 0;
+}
+
+.section2 p{
+    padding: 0;
+}
+
+.section2{
+    padding: 0;
+}
+
+.dumbelling{
+    width: 258px;
+}
+
+}
+
+
+
